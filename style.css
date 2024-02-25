@@ -170,3 +170,10 @@
   width: 130px;
   margin: 0 auto;
 }
+.author{
+  color: white;
+  margin-top: 50px;
+}
+.author h3{
+  text-align: center;
+}
