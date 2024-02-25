@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weather Fetching</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Baloo+Bhai+2&family=Baloo+Bhaijaan+2&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    
+    <div class="box">
+      <form id="form">
+        <input type="text" placeholder="Search your city..." id="input">
+        <button type="submit" id="btn">
+          <img src="img/search.png" alt="" class="img-s"/>
+        </button>
+      </form>
+    
+    <div class="error-box">
+    <div id="error-404">
+      <img src="img/error.png" class="error-img" alt="">
+      <h3>Invalid City Name!</h3>
+    </div>
+    </div>
+    
+    <div id="show-weather">
+      <div class="sun">
+        <img src="img/sun.png" id="sun-img">
+      </div>
+      
+      <div class="sec-2">
+      <p id="temp">22°c</p>
+      <p id="city-name">Bangalore</p>
+      </div>
+      
+      <div class="footer">
+        <div class="humidity">
+          <img src="img/weather.png" alt="weather.png">
+          <p class="hume">53%</p>
+        </div>
+        
+        <div class="wind">
+          <img src="img/wind.png" alt="wind.png">
+          <div>
+            <span id="speed">5.66</span>
+            <span class="km">km/h</span>
+          </div>
+        </div>
+      </div>
+    </div> 
+      
+ 
+      
+    </div>
+  </div>
+
+
+</body>
+<script src="script.js">script.js</script>
+</html>
